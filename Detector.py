@@ -219,6 +219,7 @@ class VideoDetect:
                 finished = True
 
 def main():
+    start = time.time()
     roleArn = 'arn:aws:iam::700165206351:role/rekog_role'
     bucket = 'host-s3-static'
     video = 'violent.mp4'
@@ -231,6 +232,8 @@ def main():
         analyzer.GetUnsafeContentResults()
 
     analyzer.DeleteTopicandQueue()
+    end = time.time()
+    print('Took time in seconds:',end-start)
 
 
 if __name__ == "__main__":

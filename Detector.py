@@ -222,7 +222,8 @@ def main():
     start = time.time()
     roleArn = 'arn:aws:iam::700165206351:role/rekog_role'
     bucket = 'host-s3-static'
-    video = 'demo.mp4'
+
+    video = 'vid-test-2.m4v'
 
     analyzer = VideoDetect(roleArn, bucket, video)
     analyzer.CreateTopicandQueue()

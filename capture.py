@@ -7,8 +7,8 @@ from boto.s3.connection import S3Connection
 import time
 import datetime
 
-AWS_ACCESS_KEY_ID = 'AKIA2GBIZGFHR4NG7Y6G'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 bucket_name = 'host-s3-static'
 

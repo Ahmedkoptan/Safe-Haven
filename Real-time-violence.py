@@ -4,8 +4,8 @@ from boto.s3.key import Key
 import sys
 import cv2
 
-AWS_ACCESS_KEY_ID = 'AKIA2GBIZGFHR4NG7Y6G'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 file_name1 = "violent-webcame2.jpeg"
 file_name2 = "detected-violence.jpeg"
 bucket = 'host-s3-static'
